@@ -1,3 +1,8 @@
+//exer1-2
+
+/*このコードのスクリーンショットは、VS コードのCodesnap
+拡張機能を使用してキャプチャされている。*/
+
 #include<stdio.h>
 
 int main()

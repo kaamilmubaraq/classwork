@@ -1,5 +1,12 @@
+//exer2-1
+
+/*このコードのスクリーンショットは、VS コードのCodesnap
+拡張機能を使用してキャプチャされている。*/
+
 #include<stdio.h>
+
 #define LIMIT 9
+#define horiz_line printf("-----------------------------------------\n");
 
 int d_no(int n)
 {
@@ -14,9 +21,10 @@ int d_no(int n)
 
 int main()
 {
-
+    horiz_line
     printf("|   |1  |2  |3  |4  |5  |6  |7  |8  |9  |\n");
-    printf("-----------------------------------------\n");
+    horiz_line
+    
 
     for(int i = 1; i<=LIMIT; i ++)
     {
@@ -36,9 +44,8 @@ int main()
             }
         }
         printf("\n");
+        horiz_line
     }
-
-
     return 0;
     
 }
