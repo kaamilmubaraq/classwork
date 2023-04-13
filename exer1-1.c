@@ -13,9 +13,9 @@ int main()
     printf("b = "); scanf("%d", &b);
     printf("c = "); scanf("%d", &c);
 
-    float ave = (a+b+c)/3.0;
+    float x = (a+b+c)/3.0;
 
-    printf("\na,b,cの平均は = %.2fです\n。",ave);
+    printf("\na,b,cの平均は = %.2fです。\n。",x);
 
     return 0;
 }

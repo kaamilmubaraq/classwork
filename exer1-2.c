@@ -7,7 +7,7 @@ int main()
     printf("a= ");scanf("%f",&a);
     printf("b= ");scanf("%f",&b);
 
-    if (a>b)
+    if (a>=b)
     {
         printf("%f,%f\n",a,b);
     }
